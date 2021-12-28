@@ -648,3 +648,4 @@ events----EventSendOutMsg
 events----EventSendOutMsg
 events----EventFriendMsg
 events----EventSendOutMsg
+events----EventLogin
