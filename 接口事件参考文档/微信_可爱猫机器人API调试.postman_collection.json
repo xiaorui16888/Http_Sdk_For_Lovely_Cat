@@ -1,0 +1,1017 @@
+{
+	"info": {
+		"_postman_id": "04348d43-6489-463d-a471-81451287eb65",
+		"name": "微信_可爱猫机器人API调试",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "发送消息",
+			"item": [
+				{
+					"name": "发送文字消息",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"SendTextMsg\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"to_wxid\": \"24279014823@chatroom\",\r\n    \"msg\": \"\\u5927\\u80d6\\u6d4b\\u8bd5\\u516c\\u544a\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发送图片消息",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"SendImageMsg\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"to_wxid\": \"24279014823@chatroom\",\r\n    \"msg\": {\r\n        \"name\": \"111.jpg\",\r\n        \"url\": \"http://pic.5tu.cn/uploads/allimg/1901/pic_5tu_big_201901170106566711.jpg\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发送视频消息",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"SendVideoMsg\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"to_wxid\": \"24279014823@chatroom\",\r\n    \"msg\": {\r\n        \"name\": \"6.mp4\",\r\n        \"url\": \"https://v9.douyinvod.com/8ae942678610b53075cefe549a2c314a/61cad328/video/tos/cn/tos-cn-ve-15-alinc2/bd191ead1b9f48e89f7570dd6c12f7a6/?a=1128&br=2433&bt=2433&cd=0%7C0%7C0&ch=96&cr=0&cs=0&cv=1&dr=0&ds=6&er=&ft=YbbdSWWFBLwqO543agD12UZ13_3w&l=202112281604160102121012333A00D68F&lr=all&mime_type=video_mp4&net=0&pl=0&qs=0&rc=MzxqbTo6ZmozOjMzNGkzM0ApM2llOWUzZWU3N2c3PDVoOmcpaHV2fWVuZDFwekAvXjEucjQwZi1gLS1kLTBzcy5eNWM2X2EtXzZgMjZiMC46Y29zYlxmK2BtYmJeYA%3D%3D&vl=&vr=\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发送文件消息",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"SendFileMsg\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"to_wxid\": \"24279014823@chatroom\",\r\n    \"msg\": {\r\n        \"name\": \"111.jpg\",\r\n        \"url\": \"http://pic.5tu.cn/uploads/allimg/1901/pic_5tu_big_201901170106566711.jpg\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发送动态表情",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"SendEmojiMsg\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"to_wxid\": \"24279014823@chatroom\",\r\n    \"msg\": {\r\n        \"name\": \"202111191551197602.gif\",\r\n        \"url\": \"https://qq.yh31.com/tp/qw/202111191551197602.gif\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发送分享链接",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"SendLinkMsg\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"to_wxid\": \"24279014823@chatroom\",\r\n    \"msg\": {\r\n        \"title\": \"\\u5206\\u4eab\\u6807\\u9898\",\r\n        \"text\": \"\\u5206\\u4eab\\u63cf\\u8ff0\",\r\n        \"target_url\": \"http://www.baidu.com\",\r\n        \"pic_url\": \"https://www.baidu.com/img/flexible/logo/pc/result.png\",\r\n        \"icon_url\": \"https://img0.baidu.com/it/u=2294861089,3210317650&fm=253&fmt=auto&app=120&f=JPEG?w=200&h=200\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发送音乐分享",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"SendMusicMsg\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"to_wxid\": \"24279014823@chatroom\",\r\n    \"msg\": {\r\n        \"name\": \"\\u6211\\u8981\\u4f60\",\r\n        \"type\": 0\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "群管理",
+			"item": [
+				{
+					"name": "取群成员列表",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"GetGroupMemberList\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"group_wxid\": \"13640957283@chatroom\",\r\n    \"msg\": {\r\n        \"is_refresh\": false //是否更新缓存\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取群成员详细",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"GetGroupMemberInfo\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"group_wxid\": \"13640957283@chatroom\",\r\n    \"member_wxid\": \"wxid_vk1drxylxh522\",\r\n    \"msg\": {\r\n        \"is_refresh\": false //是否更新缓存\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "修改群名称",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"EditGroupName\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"group_wxid\": \"24279014823@chatroom\",\r\n    \"msg\": \"\\u5927\\u80d6\\u6d4b\\u8bd5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "修改群公告",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"EditGroupNotice\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"group_wxid\": \"24279014823@chatroom\",\r\n    \"msg\": \"\\u5927\\u80d6\\u6d4b\\u8bd5\\u516c\\u544a\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "基础使用",
+			"item": [
+				{
+					"name": "取指定登录账号的昵称",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"GetRobotName\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取登录账号列表",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"GetLoggedAccountList\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取群聊列表",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"GetGroupList\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"msg\": {\r\n        \"is_refresh\": false //是否更新缓存\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取好友列表",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"GetFriendList\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"msg\": {\r\n        \"is_refresh\": false, //是否更新缓存\r\n        \"out_rawdata\": false\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "好友管理",
+			"item": [
+				{
+					"name": "接收好友转账[已失效]",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"AcceptTransfer\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"to_wxid\": \"wxid_yw50xr3odmmv22\",\r\n    \"msg\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "修改好友备注",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"EditFriendNote\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"to_wxid\": \"wxid_yw50xr3odmmv22\",\r\n    \"msg\": \"\\u738b\\u5927\\u80d6\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "删除好友",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": " application/json;charset=utf-8",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": " 666666",
+								"type": "text"
+							},
+							{
+								"key": "Name",
+								"value": " iHttp",
+								"type": "text"
+							},
+							{
+								"key": "Ver",
+								"value": " 1.1.0.0|5.2.7",
+								"type": "text"
+							},
+							{
+								"key": "Udid",
+								"value": " 853ee697c4843c7992d02c6bda78cd6f",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"DeleteFriend\",\r\n    \"robot_wxid\": \"wxid_rqn31uwmjug922\",\r\n    \"to_wxid\": \"wxid_yw50xr3odmmv22\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.179.1:8090",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"179",
+								"1"
+							],
+							"port": "8090"
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
