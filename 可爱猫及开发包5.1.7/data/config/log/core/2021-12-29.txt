@@ -1,0 +1,44 @@
+2021-12-29 01:19:11.222 信息:[初始化] Initializing Complete
+2021-12-29 01:19:11.222 信息:[初始化] Load Config Complete, debug at 
+2021-12-29 01:19:11.222 信息:[初始化] Version Verification, Start
+2021-12-29 01:19:22.560 信息:[初始化] Version Verification, Complate has jpg: 33tSC2IGo=
+2021-12-29 01:19:22.562 信息:[初始化] Version Verification, jpg length: 4055
+2021-12-29 01:19:22.624 信息:[初始化] Version Verification, is Complete
+2021-12-29 01:19:22.989 信息:[初始化] Open v candy
+2021-12-29 01:19:23.004 信息:[初始化] Open v candy, sta：1
+2021-12-29 01:19:23.004 信息:[初始化] Open v candy, Comlpete
+2021-12-29 01:19:23.005 信息:[初始化] Create Log, Start
+2021-12-29 01:19:23.010 信息:[初始化] Create Log, Init Queue and Config
+2021-12-29 01:19:23.053 信息:[初始化] Create Log Panel Complete, c at 365987575
+2021-12-29 01:19:23.430 信息:[初始化] have full
+2021-12-29 01:19:23.430 信息:[初始化] Create Windows, Start
+2021-12-29 01:35:47.909 信息:[初始化] Create Window, Complete
+2021-12-29 01:38:42.178 信息:[应用心跳-结束] 应用: tuling.cat.dll  信号量: 1
+2021-12-29 01:39:03.086 信息:[初始化] Initializing Complete
+2021-12-29 01:39:03.086 信息:[初始化] Load Config Complete, debug at 
+2021-12-29 01:39:03.086 信息:[初始化] Version Verification, Start
+2021-12-29 01:39:14.377 信息:[初始化] Version Verification, Complate has jpg: 33tSC2IGo=
+2021-12-29 01:39:14.377 信息:[初始化] Version Verification, jpg length: 4055
+2021-12-29 01:39:14.436 信息:[初始化] Version Verification, is Complete
+2021-12-29 01:39:14.797 信息:[初始化] Open v candy
+2021-12-29 01:39:14.812 信息:[初始化] Open v candy, sta：1
+2021-12-29 01:39:14.812 信息:[初始化] Open v candy, Comlpete
+2021-12-29 01:39:14.812 信息:[初始化] Create Log, Start
+2021-12-29 01:39:14.818 信息:[初始化] Create Log, Init Queue and Config
+2021-12-29 01:39:14.858 信息:[初始化] Create Log Panel Complete, c at 363235063
+2021-12-29 01:39:15.226 信息:[初始化] have full
+2021-12-29 01:39:15.226 信息:[初始化] Create Windows, Start
+2021-12-29 01:56:47.925 信息:[初始化] Initializing Complete
+2021-12-29 01:56:47.926 信息:[初始化] Load Config Complete, debug at 
+2021-12-29 01:56:47.926 信息:[初始化] Version Verification, Start
+2021-12-29 01:56:59.422 信息:[初始化] Version Verification, Complate has jpg: 33tSC2IGo=
+2021-12-29 01:56:59.425 信息:[初始化] Version Verification, jpg length: 4055
+2021-12-29 01:56:59.484 信息:[初始化] Version Verification, is Complete
+2021-12-29 01:56:59.855 信息:[初始化] Open v candy
+2021-12-29 01:56:59.870 信息:[初始化] Open v candy, sta：1
+2021-12-29 01:56:59.870 信息:[初始化] Open v candy, Comlpete
+2021-12-29 01:56:59.871 信息:[初始化] Create Log, Start
+2021-12-29 01:56:59.876 信息:[初始化] Create Log, Init Queue and Config
+2021-12-29 01:56:59.916 信息:[初始化] Create Log Panel Complete, c at 369460983
+2021-12-29 01:57:00.274 信息:[初始化] have full
+2021-12-29 01:57:00.274 信息:[初始化] Create Windows, Start
