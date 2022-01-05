@@ -105,7 +105,7 @@ class Robot{
         //file_put_contents('./wxmsg.log',$data."\r\n",FILE_APPEND);//记录接收消息log
         $rec_arr = json_decode($data,true);//把接收的json转为数组
         $this->checkAuthorization();//检测通信鉴权，并维护其值
-        // file_put_contents("resp.txt",'rec_arr-----'.json_encode($rec_arr).PHP_EOL, FILE_APPEND);
+        // file_put_contents("resp.txt",'rec_arr-----'.json_encode($data,true).PHP_EOL, FILE_APPEND);
         echo json_encode($this->response($rec_arr));
     }
 
